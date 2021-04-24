@@ -12,7 +12,7 @@ def index():
     if not output:
         output = PLAIN
     return get_formatted(msg, moje_imie,
-                         output.lower())
+                        output.lower())
 
 @app.route('/outputs')
 def supported_output():
